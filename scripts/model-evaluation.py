@@ -1,4 +1,5 @@
 import os
+import csv
 import gym
 import glob
 import time
@@ -15,6 +16,8 @@ from stable_baselines import DQN
 import tensorflow as tf
 
 datasets = ['nslkdd', 'unswnb15', 'cicddos2019', 'cicddos2019-top', 'cicdos2017']
+
+
 
 def mal_ben(df):
     print(df['class'].value_counts())
@@ -81,6 +84,7 @@ for d in datasets:
             df_train = pd.read_feather('/project/datasets/clean-ids-collection/nsl-kdd/clean/KDDTrain.feather')
             df_test = pd.read_feather('/project/datasets/clean-ids-collection/nsl-kdd/clean/KDDTest.feather')
             df = pd.concat([df_train, df_test], ignore_index=True)
+            mal_ben(df)
             x_test, y_test = nslkdd_split_df(df)
             results = ids_eval(model)
             entry = ['{m}', 'nslkdd', 'nslkdd', '{df.columns}'] + results
@@ -89,6 +93,7 @@ for d in datasets:
             df_train = pd.read_feather('/project/datasets/clean-ids-collection/nsl-kdd/clean/KDDTrain.feather')
             df_test = pd.read_feather('/project/datasets/clean-ids-collection/nsl-kdd/clean/KDDTrain.feather')
             df = pd.concat([df_train, df_test], ignore_index=True)
+            mal_ben(df)
             x_test, y_test = nslkdd_split_df(df)
             results = ids_eval(model)
             entry = ['{m}', 'unswnb15', 'unswnb15', '{df.columns}'] + results
