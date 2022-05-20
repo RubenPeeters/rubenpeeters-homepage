@@ -58,9 +58,11 @@ function Project() {
         </Heading>
         <Paragraph>
           A list of all the functionalities can be found{' '}
-          <Link href="https://top.gg/bot/457838617633488908">here</Link>. I will
-          be going over the most noteworthy and/or most interesting in my own
-          opinion.
+          <Link href="https://top.gg/bot/457838617633488908">
+            here <ExternalLinkIcon mb={1} />
+          </Link>
+          . I will be going over the most noteworthy and/or most interesting in
+          my own opinion.
         </Paragraph>
         <Heading as="h4" variant="sub-section-title">
           Chess
