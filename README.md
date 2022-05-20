@@ -5,6 +5,6 @@ Small project to enhance javascript skills, learn new frameworks Next.js, Chakra
 
 ## TODO
 - [ ] Add other projects (school work)
-- [ ] Add facicon.ico
+- [ ] Add favicon.ico
 - [ ] Build terminal website version
 - [ ] Hide easter eggs
