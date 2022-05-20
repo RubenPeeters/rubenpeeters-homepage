@@ -2,6 +2,7 @@ import { Container, List, ListItem, Link, Heading } from '@chakra-ui/react'
 import Paragraph from '../../components/paragraph'
 import Section from '../../components/section'
 import { MrBadge, TempImage } from '../../components/project-templates'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
 function Project() {
   return (
     <Container>
@@ -16,7 +17,9 @@ function Project() {
         </ListItem>
         <ListItem>
           <MrBadge>GitHub</MrBadge>
-          <Link href="https://github.com/RubenPeeters/Itachi">Source code</Link>
+          <Link href="https://github.com/RubenPeeters/Itachi">
+            Source code <ExternalLinkIcon />
+          </Link>
         </ListItem>
         <ListItem>
           <MrBadge>Last update</MrBadge>
@@ -24,7 +27,9 @@ function Project() {
         </ListItem>
         <ListItem>
           <MrBadge>Commands</MrBadge>
-          <Link href="https://top.gg/bot/457838617633488908">top.gg</Link>
+          <Link href="https://top.gg/bot/457838617633488908">
+            top.gg <ExternalLinkIcon />
+          </Link>
         </ListItem>
       </List>
       <Section>

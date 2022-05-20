@@ -11,6 +11,7 @@ import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import Image from 'next/image'
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -63,7 +64,10 @@ function HomePage() {
           new languages and frameworks. I've also competed in the Belgian
           Security Challenge 2022 and got to the finals in the Royal Military
           Academy in Brussels! Some action photos can be found{' '}
-          <Link href="https://pryzm.be/csc2022">here</Link>.
+          <Link href="https://pryzm.be/csc2022">
+            here <ExternalLinkIcon mb={1} />
+          </Link>
+          .
         </Paragraph>
       </Section>
       <Section>
@@ -73,8 +77,12 @@ function HomePage() {
         <Paragraph>
           The most fun projects I&apos;ve worked on were the discord bot I
           created and my current master thesis. Most of the projects I&apos;ve
-          worked on were made for school. I have a summary of the most notable
-          projects <Link href="/projects">here</Link>.
+          worked on were made for school. You can find a summary of the most
+          notable projects{' '}
+          <Link href="/projects">
+            here <ExternalLinkIcon mb={1} />
+          </Link>
+          .
         </Paragraph>
       </Section>
 
