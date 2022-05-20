@@ -8,3 +8,6 @@ Small project to enhance javascript skills, learn new frameworks Next.js, Chakra
 - [ ] Add favicon.ico
 - [ ] Build terminal website version
 - [ ] Hide easter eggs
+
+## Link
+https://www.rubenpeeters.me/
