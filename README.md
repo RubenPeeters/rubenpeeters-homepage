@@ -1,4 +1,4 @@
-# rubenpeeters-homepage
+# My homepage
 Personal portfolio website
 
 Small project to enhance javascript skills, learn new frameworks Next.js, Chakra UI and Framer motion
