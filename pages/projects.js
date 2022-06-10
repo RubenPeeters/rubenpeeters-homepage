@@ -33,6 +33,14 @@ function Projects() {
           </ProjectGridItem>
         </Section>
       </SimpleGrid>
+      <SimpleGrid columns={[1, null, 2]} gap={6}>
+        <Section>
+          <ProjectGridItem id="computervision" title="Computer vision">
+            A computer vision project, to predict a persons position inside the
+            MSK, Ghent using the detecting of paintings in videos.
+          </ProjectGridItem>
+        </Section>
+      </SimpleGrid>
     </Container>
   )
 }

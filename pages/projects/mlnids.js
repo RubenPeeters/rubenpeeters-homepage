@@ -9,11 +9,13 @@ function Project() {
       <List ml={4} my={4}>
         <ListItem>
           <MrBadge>Stack</MrBadge>
-          <span>Python, IJupyter Notebooks, Tensorflow, PyTorch, Pandas</span>
+          <span>Python, Jupyter Notebooks, Tensorflow, PyTorch, Pandas</span>
         </ListItem>
         <ListItem>
           <MrBadge>GitHub</MrBadge>
-          Not publicly available
+          <Link href="https://github.com/RubenPeeters/masterproef">
+            Source code <ExternalLinkIcon />
+          </Link>
         </ListItem>
         <ListItem>
           <MrBadge>Last update</MrBadge>
