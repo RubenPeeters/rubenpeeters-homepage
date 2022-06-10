@@ -5,6 +5,15 @@ const styles = {
   global: props => ({
     body: {
       bg: mode('#ede8e0', 'blue.800')(props)
+    },
+    '&::-webkit-scrollbar': {
+      width: '0px'
+    },
+    '&::-webkit-scrollbar-track': {
+      width: '0px'
+    },
+    '&::-webkit-scrollbar-thumb': {
+      borderRadius: 'opx'
     }
   })
 }
