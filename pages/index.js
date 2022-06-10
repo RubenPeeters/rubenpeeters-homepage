@@ -60,7 +60,7 @@ function HomePage() {
           University. Through my study I&apos;ve had the opportunity to learn
           multiple coding languages, frameworks and technologies. However,
           funnily enough, the language I use most (Python) is one I didn&apos;t
-          learn behind a school desk. I enjoy learning new things alot and am
+          learn behind a school desk. I enjoy learning new things a lot and am
           very eager to try new languages and frameworks. I've also competed in
           the Belgian Security Challenge 2022 and got to the finals in the Royal
           Military Academy in Brussels! Some action photos can be found{' '}
